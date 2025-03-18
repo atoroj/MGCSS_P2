@@ -1,6 +1,6 @@
 package edu.uhu.monopoly;
 
-public abstract class Cell {
+public abstract class Cell implements IOwnable {
 	private String name;
 	protected Player proprietary;
 	private boolean available = true;
